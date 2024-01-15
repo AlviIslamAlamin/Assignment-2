@@ -2,8 +2,11 @@
     font-family: 'Roboto Slab', serif;
 }
 @media screen and (max-width:600px) {
+   .random-btn{
+      width: 100%;
+   }
    nav{
-      margin: 50px 50px;
+      margin: 40px 40px;
    }
    .nav-item{
     display: none;
@@ -12,4 +15,73 @@
       visibility: visible;
       font-size: 20px;
    }
+   /* explore section start */
+
+  .banner-section{
+     margin: 40px 40px;
+     height: 100%;
+   }
+   .banner-info{
+      padding: 15px;
+   }
+    
+   .banner-desc h2{
+      font-size: 30px;
+      margin-bottom: 20px;
+   }
+   
+   .banner-desc p{
+      font-size: 15px;
+      margin-bottom: 20px;
+      text-align: justify;
+   }
+   .banner-input{
+      flex-direction: column;
+      margin: 30px auto;
+      padding: 20px;
+      width: 75%;
+   }
+   .banner-input input{
+      width: 250px;
+   }
+   .banner-input select{
+      width: 300px;
+   }
+/* explore section end */
+
+
+/* Choose Your Destination section start */
+.destination-section{
+   margin: 50px 40px;
+}
+.destination-info{
+   text-align: center;
+   margin-bottom: 40px;
+}
+.destination-info h1{
+   font-size: 30px;
+   margin-bottom: 20px;
+}
+.destination-1{
+   flex-direction: column;
+   margin-bottom: 20px;
+}
+.destination-1 img{
+   height: 230px;
+}
+.destination-2{
+   margin-bottom: 20px;
+   flex-direction: column;
+}
+.destination-2 img{
+   height: 230px;
+}
+.destination-3{
+   flex-direction: column;
+}
+.destination-3 img{
+   height: 230px;
+}
+
+/* Choose Your Destination section end */
 }
