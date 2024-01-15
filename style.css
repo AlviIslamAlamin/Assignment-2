@@ -1,0 +1,33 @@
+*{
+    font-family: 'Roboto Slab', serif;
+    margin: 0;
+}
+/* header section start */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 120px;
+}
+.nav-logo{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.nav-items {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 35px;
+    
+}
+.nav-item{
+    list-style: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 18px;
+}
+.humbuger{
+    visibility: hidden;
+}
+/* header section end  */
