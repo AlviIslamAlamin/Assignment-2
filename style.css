@@ -46,7 +46,7 @@ nav{
     ,url("Images/Group\ 13\ \(1\)\ \(1\).png");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 500px;
+    height: 600px;
     border-radius: 16px;
     margin: 100px 120px ;
 }
@@ -82,15 +82,88 @@ nav{
 }
 /* explore section end */
 
+/* popular section start */
 
+.popular-section{
+    display: flex;
+    gap: 50px;
+    margin: 100px 120px;
+   
+}
+.popular-tour h2 {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+.popular-tour .popular-title{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 20px;
+}
+.popular-tour ul >li{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 20px;
+    
+ }
+ .popular-section .popular-img{
+    width: 540px;
+    height: 550px;
+    border-radius: 16px;
+}
+/* popular section end */
 
+/* why choose us section start */
 
-
-
-
-
-
-
+.why-choose-us h2{
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+.why-choose-us p{
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 25px;
+   
+}
+.why-choose{
+    display: flex;
+    
+}
+.handpicked-hotels{
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    width: 573px;
+    height: 284px;
+    margin: 100px 120px;
+}
+.world-class-service{
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    width: 573px;
+    height: 284px;
+    margin: 100px 120px;
+}
+.best-price-guarantee{
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    width: 573px;
+    height: 284px;
+    margin: 0 auto;
+}
+/* why choose us section end */
 
 /* Choose Your Destination section start */
 .destination-section{
@@ -143,3 +216,36 @@ nav{
     text-align: center;
 }
 /* Choose Your Destination section end */
+
+/* foooter section start */
+footer{
+    text-align: center;
+    background: rgba(19, 19, 24, 0.05);
+    height: 502px;
+}
+.footer-logo-name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   padding-top: 120px;
+    
+}
+.footer-section p{
+    color: #5A5A5D;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px; 
+    padding: 35px;
+}
+hr{
+    background: rgba(19, 19, 24, 0.10);
+    margin: 60px 285px;   
+}
+.footer-copyright{
+    color: #131318;
+    font-size: 20px;
+    font-weight: 300;
+
+}
+/* footer section end */
