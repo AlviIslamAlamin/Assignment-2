@@ -39,6 +39,7 @@ nav{
     visibility: hidden;
 }
 /* header section end  */
+
 /* explore section start */
 
 .banner-section{
@@ -112,11 +113,61 @@ nav{
     
  }
  .popular-section .popular-img{
-    width: 540px;
-    height: 550px;
     border-radius: 16px;
 }
 /* popular section end */
+
+/* Choose Your Destination section start */
+.destination-section{
+    margin: 40px 120px;
+}
+.destination-info{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.destination-info h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.destination-1{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 20px;
+}
+.destination-2{
+    display: flex; 
+    gap: 30px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.destination-3{
+    display: flex; 
+    gap: 30px;
+    justify-content: center;
+}
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+  
+.image-container img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+  
+.overlay-text {
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    color: #fff; 
+    padding: 10px 20px; 
+    font-size: 25px; 
+    text-align: center;
+}
+/* Choose Your Destination section end */
 
 /* why choose us section start */
 
@@ -182,57 +233,50 @@ nav{
 }
 /* why choose us section end */
 
-/* Choose Your Destination section start */
-.destination-section{
-    margin: 40px 120px;
+/* happy clients section start */
+.happy-clients-section{
+    margin: 100px 120px;
+    background-color:#FF5400;
+    border-radius: 10px;
+    color: white;
+    padding: 100px;
 }
-.destination-info{
+.happy-clients{
+    display: flex;
+    gap: 30px;
+    justify-content: space-around;
+}
+.happy-clients img{
+    width: 60px;
+    border-radius: 50%;
+}
+.happy-title{
     text-align: center;
+    font-size: 50px;
+    font-weight: bold; 
     margin-bottom: 40px;
 }
-.destination-info h1{
-    font-size: 40px;
-    margin-bottom: 20px;
+.client{
+    background-color: white;
+    color: black;
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%; 
+    text-align: center;  
 }
-.destination-1{
-    display: flex;
-    justify-content: center;
-    gap: 40px;
-    margin-bottom: 20px;
+.client img{
+    margin-bottom: 10px;
 }
-.destination-2{
-    display: flex; 
-    gap: 30px;
-    justify-content: center;
-    margin-bottom: 20px;
+.client h4{
+    margin-bottom: 10px;
 }
-.destination-3{
-    display: flex; 
-    gap: 30px;
-    justify-content: center;
+.client p{
+    margin-bottom: 10px;
+    text-align: justify;
 }
-.image-container {
-    position: relative;
-    display: inline-block;
-}
-  
-.image-container img {
-    display: block;
-    width: 100%;
-    height: auto;
-}
-  
-.overlay-text {
-    position: absolute;
-    top: 50%; 
-    left: 50%; 
-    transform: translate(-50%, -50%); 
-    color: #fff; 
-    padding: 10px 20px; 
-    font-size: 25px; 
-    text-align: center;
-}
-/* Choose Your Destination section end */
+/* happy clients section end */
+
+
 
 /* Newsletter section start */
 .newsletter-section{
@@ -267,14 +311,39 @@ nav{
 .newsletter-btn{
     width: 100%;
 }
-
+.newsletter-discount{
+    background-color: #FF5400;
+    color: white;
+    border-radius: 10px;
+    width: 25%;
+    padding: 15px 30px;
+}
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+  
+.image-container img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+  
+.overlay-div {
+    position: absolute;
+    top: 80%; 
+    left: 82%; 
+    transform: translate(-50%, -50%) rotate(-25deg); 
+    color: #fff;  
+    text-align: center;
+}
 /* Newsletter section end */
 
-/* foooter section start */
+/* footer section start */
 footer{
     text-align: center;
     background: rgba(19, 19, 24, 0.05);
-    height: 502px;
+    padding: 50px;
 }
 .footer-logo-name{
     display: flex;
@@ -303,7 +372,7 @@ hr{
 }
 .footer-icon{
     font-size: 30px;
-    margin-right: 10px;
+    margin-right: 20px;
     cursor: pointer;
 }
 /* footer section end */
