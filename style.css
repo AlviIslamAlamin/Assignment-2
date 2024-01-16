@@ -1,5 +1,5 @@
 *{
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
 }
 .random-btn{
@@ -98,15 +98,15 @@ nav{
 }
 .popular-tour .popular-title{
     color: rgba(19, 19, 24, 0.70);
-    font-size: 16px;
-    font-weight: 400;
+    font-size: 14px;
+    font-weight: 700;
     line-height: 26px;
     margin-bottom: 20px;
 }
 .popular-tour ul >li{
     color: rgba(19, 19, 24, 0.70);
-    font-size: 16px;
-    font-weight: 400;
+    font-size: 14px;
+    font-weight: 700;
     line-height: 26px;
     margin-bottom: 20px;
     
@@ -120,13 +120,16 @@ nav{
 
 /* why choose us section start */
 
+.why-choose-us{
+    margin: 100px 120px;
+}
 .why-choose-us h2{
     color: #131318;
     text-align: center;
     font-size: 40px;
     font-weight: 800;
 }
-.why-choose-us p{
+.why-choose-us .why-choose-desc{
     color: rgba(19, 19, 24, 0.70);
     text-align: center;
     font-size: 16px;
@@ -137,31 +140,45 @@ nav{
 }
 .why-choose{
     display: flex;
-    
+    gap: 30px;
+    margin: 30px 0;
+    justify-content: center;   
 }
 .handpicked-hotels{
     border-radius: 16px;
     border: 1px solid rgba(251, 181, 99, 0.20);
     background: rgba(251, 181, 99, 0.05);
-    width: 573px;
-    height: 284px;
-    margin: 100px 120px;
+    padding: 50px;
+    width: 50%;
+   
 }
 .world-class-service{
     border-radius: 16px;
     border: 1px solid rgba(41, 206, 246, 0.20);
     background: rgba(41, 206, 246, 0.05);
-    width: 573px;
-    height: 284px;
-    margin: 100px 120px;
+    padding: 50px;
+    width: 50%;
+    
 }
 .best-price-guarantee{
     border-radius: 16px;
     border: 1px solid rgba(233, 68, 68, 0.20);
     background: rgba(233, 68, 68, 0.05);
-    width: 573px;
-    height: 284px;
+    width: 50%;
     margin: 0 auto;
+    padding: 50px;
+}
+.why-choose-img{
+    margin-bottom: 20px;
+}
+.why-title{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.why-desc{
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 10px;
 }
 /* why choose us section end */
 
@@ -217,6 +234,42 @@ nav{
 }
 /* Choose Your Destination section end */
 
+/* Newsletter section start */
+.newsletter-section{
+    display: flex;
+    margin: 100px 120px;
+    gap: 40px;
+    justify-content: center;
+}
+.newsletter-form {
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    padding: 50px;
+}
+.newsletter-form h4{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.newsletter-form p{
+  font-size: 14px;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+.newsletter-form input{
+    display: block;
+    width: 75%;
+    padding: 20px 40px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    margin-bottom: 20px;
+}
+.newsletter-btn{
+    width: 100%;
+}
+
+/* Newsletter section end */
+
 /* foooter section start */
 footer{
     text-align: center;
@@ -247,5 +300,10 @@ hr{
     font-size: 20px;
     font-weight: 300;
 
+}
+.footer-icon{
+    font-size: 30px;
+    margin-right: 10px;
+    cursor: pointer;
 }
 /* footer section end */
